@@ -1,0 +1,110 @@
+body{
+    font-family: "poppins", sans-serif;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('back.jpg') no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    color: #000000;
+    border-radius: 20px;
+    padding: 20px 35px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+ .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px -11px;
+}
+
+.input-box label {
+    position:relative ;
+    color: #000000;
+    font-size: 18px;
+    accent-color: #fff;
+    margin-right: 3px;
+    right: -10px;
+}
+
+.input-box input{ 
+    width: 105%;
+    height: 105%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(6, 6, 6, 0.2);
+
+    border-radius: 40px;
+    font-size: 18px;
+    color: #000000;
+    padding: 1px 1px 1px 1px;
+} 
+
+.input-box input::placeholder {
+    position: relative;
+    font-size: 17px;
+    right: -10px;
+    color: #000000;
+}
+
+.input-box i{
+    position: absolute;
+    right: -10px;
+    top: 90%;
+    transform: translateY(-40%);
+    font-size: 25px;
+}
+
+.wrapper .button {
+    position: relative;
+    width:  100%;
+    height:  50px;
+    border-radius: 40px;
+    background: #000000;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor:pointer;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    bottom: -10px;
+    }
+
+.wrapper .login-link {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0 15px;
+    }
+
+    .login-link p a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: 600; 
+    }
+
+    .login-link p a:hover{
+            text-decoration: underline;
+    }            
+
